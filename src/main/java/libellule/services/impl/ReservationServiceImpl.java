@@ -44,11 +44,12 @@ public class ReservationServiceImpl implements ReservationService {
 
     @Override
     public void deleteOne(Integer idReservation) {
-
+        reservationDAO.deleteById(idReservation);
+        reservationDAO.flush();
     }
 
     @Override
     public void updateOne(Reservation reservation) {
-
+        reservationDAO.saveAndFlush(reservation);
     }
 }
