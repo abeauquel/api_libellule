@@ -1,0 +1,27 @@
+//TODO supprimer balise data root
+//TODO respecter les maj et le nom de attributs
+//TODO genius : "0"  ->>> false
+//TODO unknown ->> null
+//TODO avoir juste :
+[
+      {
+        "id": "80",
+        "nom": "FLIXA",
+        "telephone": "0645412726",
+        "email": "unknown",
+        "langue": "Français",
+        "adressePays": "France",
+        "adresseRegion": "unknown",
+        "genius": false
+      },
+      {
+        "id": "90",
+        "nom": "KELIFA Alexandre",
+        "telephone": "unknown",
+        "email": "alice.troncy@hotmail.fr",
+        "langue": "Français",
+        "adressePays": "France",
+        "adresseRegion": "PORNIC",
+        "genius": false
+      }
+]

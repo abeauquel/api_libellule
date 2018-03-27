@@ -1,0 +1,630 @@
+//TODO changement des booleeans (enleve les ""
+//TODO de l'id client en objet
+[
+      {
+        "numReser": "2",
+        "dateRecu": "2017-02-16T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-02-16T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": 1,
+        "datePaiementClient": "2017-02-16T00:00:00",
+        "monClient": {
+      "id": "2"}, "plateformePaiement": "Espèces",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "3",
+        "dateRecu": "2017-02-18T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-02-18T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": 1,
+        "datePaiementClient": "2017-03-15T00:00:00",
+        "monClient": {
+      "id": "3"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      }]
+       #####################################
+      {
+        "numReser": "4",
+        "dateRecu": "2017-02-23T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-23T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-15T00:00:00",
+        "monClient": {
+      "id": "4"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "5",
+        "dateRecu": "2017-02-26T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-03-04T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-15T00:00:00",
+        "monClient": {
+      "id": "5"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "6",
+        "dateRecu": "2017-03-06T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-07T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "8"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "7",
+        "dateRecu": "2017-03-07T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-09T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-09T00:00:00",
+        "monClient": {
+      "id": "9"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "ANNULATION LE 8 MARS SUR BOOKING - FACTURE"
+      },
+      {
+        "numReser": "8",
+        "dateRecu": "2017-03-08T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-08T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "12"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "9",
+        "dateRecu": "2017-03-02T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-03-13T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "14"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "10",
+        "dateRecu": "2017-03-07T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-03-14T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "15"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "11",
+        "dateRecu": "2017-03-14T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-15T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "16"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "gite-chapelle-enchantee.fr ou lachapelle24@orange.fr/ paiement en espèces personne numéro 3"
+      },
+      {
+        "numReser": "12",
+        "dateRecu": "2017-02-24T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-20T00:00:00",
+        "Nuitee": "3",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "17"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "13",
+        "dateRecu": "2017-03-19T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-03-25T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "19"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "14",
+        "dateRecu": "2017-03-28T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-28T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "20"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "15",
+        "dateRecu": "2017-03-29T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-03-29T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "23"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "ERREURS : 1 personne, pas américain"
+      },
+      {
+        "numReser": "16",
+        "dateRecu": "2017-03-20T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "60",
+        "CheckIn": "2017-04-04T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-15T00:00:00",
+        "monClient": {
+      "id": "25"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "17",
+        "dateRecu": "2017-03-26T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "60",
+        "CheckIn": "2017-04-05T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-05-15T00:00:00",
+        "monClient": {
+      "id": "26"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "18",
+        "dateRecu": "2017-03-18T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "60",
+        "CheckIn": "2017-04-10T00:00:00",
+        "Nuitee": "2",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-05-15T00:00:00",
+        "monClient": {
+      "id": "29"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "19",
+        "dateRecu": "2017-03-11T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "75",
+        "CheckIn": "2017-04-12T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-05-15T00:00:00",
+        "monClient": {
+      "id": "30"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "20",
+        "dateRecu": "2017-03-15T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-04-13T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-05-15T00:00:00",
+        "monClient": {
+      "id": "31"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "21",
+        "dateRecu": "2017-03-01T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-04-14T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-15T00:00:00",
+        "monClient": {
+      "id": "32"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "+1.20 taxe séjour"
+      },
+      {
+        "numReser": "22",
+        "dateRecu": "2017-04-06T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "75",
+        "CheckIn": "2017-04-15T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-05-15T00:00:00",
+        "monClient": {
+      "id": "33"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "arrivée à 20h"
+      },
+      {
+        "numReser": "23",
+        "dateRecu": "2017-04-07T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-04-28T00:00:00",
+        "Nuitee": "2",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-04-14T00:00:00",
+        "monClient": {
+      "id": "34"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "PAIEMENT EN CHEQUE 130 EUROS
+RESTE 2,40 euros à payer"
+      },
+      {
+        "numReser": "24",
+        "dateRecu": "2017-04-07T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-04-30T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "0",
+        "datePaiementClient": "2017-04-07T00:00:00",
+        "monClient": {
+      "id": "35"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "RESTE A REGLER 65 EUROS ET 4 euros taxe de séjour = 69 euros"
+      },
+      {
+        "numReser": "25",
+        "dateRecu": "2017-04-08T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-05-05T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-06-15T00:00:00",
+        "monClient": {
+      "id": "36"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "26",
+        "dateRecu": "2017-03-05T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "60",
+        "CheckIn": "2017-05-06T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-06-15T00:00:00",
+        "monClient": {
+      "id": "37"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "ARRIVEE AVANT 18H MARIAGE ST MEDARD CEREMONIE AVANT A MERIGNAC"
+      },
+      {
+        "numReser": "27",
+        "dateRecu": "2017-04-05T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-05-10T00:00:00",
+        "Nuitee": "2",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-06-15T00:00:00",
+        "monClient": {
+      "id": "38"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "ARRIVEE APRES 20H"
+      },
+      {
+        "numReser": "28",
+        "dateRecu": "2017-02-28T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-05-27T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-06-15T00:00:00",
+        "monClient": {
+      "id": "39"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "29",
+        "dateRecu": "2017-03-22T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-07-08T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-08-15T00:00:00",
+        "monClient": {
+      "id": "40"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "PARKING IMPORTANT. ENFANT ? AGE ?"
+      },
+      {
+        "numReser": "30",
+        "dateRecu": "2017-03-05T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-07-11T00:00:00",
+        "Nuitee": "3",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-08-15T00:00:00",
+        "monClient": {
+      "id": "41"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "31",
+        "dateRecu": "2017-03-11T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "75",
+        "CheckIn": "2017-07-14T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-08-15T00:00:00",
+        "monClient": {
+      "id": "42"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "client espagnol"
+      },
+      {
+        "numReser": "32",
+        "dateRecu": "2017-03-20T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-07-15T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-08-15T00:00:00",
+        "monClient": {
+      "id": "43"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "33",
+        "dateRecu": "2017-03-13T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "75",
+        "CheckIn": "2017-08-05T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-09-15T00:00:00",
+        "monClient": {
+      "id": "44"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "34",
+        "dateRecu": "2017-04-11T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "2",
+        "tarifNuit": "75",
+        "CheckIn": "2017-08-18T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-09-15T00:00:00",
+        "monClient": {
+      "id": "45"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "35",
+        "dateRecu": "2017-03-04T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-08-19T00:00:00",
+        "Nuitee": "8",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-01T00:00:00",
+        "monClient": {
+      "id": "46"}, "plateformePaiement": "Cle vacances",
+        "Annulation": "0",
+        "Remarque": "537,60 payé en ligne"
+      },
+      {
+        "numReser": "36",
+        "dateRecu": "2017-02-24T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-08-26T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-04T00:00:00",
+        "monClient": {
+      "id": "47"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "ARRIVEE 15H DEPART 11H MARIAGE
+CHEQUE 65,60
+"
+      },
+      {
+        "numReser": "37",
+        "dateRecu": "2017-03-05T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "60",
+        "CheckIn": "2017-05-14T00:00:00",
+        "Nuitee": "5",
+        "statutPaiement": "0",
+        "datePaiementClient": "2017-03-05T00:00:00",
+        "monClient": {
+      "id": "48"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "CONTACTER MME BAMMEZ 14 AVRIL
+A PAYER 300 EUROS + 6 EUROS TAXE"
+      },
+      {
+        "numReser": "38",
+        "dateRecu": "2017-03-22T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-09-09T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-03-29T00:00:00",
+        "monClient": {
+      "id": "49"}, "plateformePaiement": "Chèque",
+        "Annulation": "0",
+        "Remarque": "66,20 par cheque
+mariage à martillac"
+      },
+      {
+        "numReser": "39",
+        "dateRecu": "2017-03-22T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-09-23T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-10-15T00:00:00",
+        "monClient": {
+      "id": "50"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "MARIAGE A MARTILLAC ARRIVEE 15H"
+      },
+      {
+        "numReser": "40",
+        "dateRecu": "2017-02-23T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-10-06T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-11-15T00:00:00",
+        "monClient": {
+      "id": "51"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "41",
+        "dateRecu": "2017-02-23T00:00:00",
+        "nbPersonne": "2",
+        "nbEnfant": "0",
+        "tarifNuit": "55",
+        "CheckIn": "2017-10-07T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-11-15T00:00:00",
+        "monClient": {
+      "id": "52"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "42",
+        "dateRecu": "2017-02-26T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "1",
+        "tarifNuit": "65",
+        "CheckIn": "2017-10-09T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-11-15T00:00:00",
+        "monClient": {
+      "id": "53"}, "plateformePaiement": "Booking",
+        "Annulation": "0",
+        "Remarque": "ENFANT 2 ANS ARRIVEE 20H 21H 
+CLIENT GENIUS"
+      },
+      {
+        "numReser": "43",
+        "dateRecu": "2017-04-11T00:00:00",
+        "nbPersonne": "1",
+        "nbEnfant": "0",
+        "tarifNuit": "65",
+        "CheckIn": "2017-05-19T00:00:00",
+        "Nuitee": "2",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-06-15T00:00:00",
+        "monClient": {
+      "id": "54"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      },
+      {
+        "numReser": "44",
+        "dateRecu": "2017-03-23T00:00:00",
+        "nbPersonne": "3",
+        "nbEnfant": "0",
+        "tarifNuit": "75",
+        "CheckIn": "2017-07-22T00:00:00",
+        "Nuitee": "1",
+        "statutPaiement": "1",
+        "datePaiementClient": "2017-08-15T00:00:00",
+        "monClient": {
+      "id": "55"}, "plateformePaiement": "Booking",
+        "Annulation": "0"
+      }
+    ]
