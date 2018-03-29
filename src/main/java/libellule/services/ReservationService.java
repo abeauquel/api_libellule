@@ -16,4 +16,8 @@ public interface ReservationService {
     void deleteOne(Integer idReservation);
 
     void updateOne(Reservation reservation);
+
+    List<Reservation> findByIdClient(Integer idClient);
+
+    void deleteByIdClient(Integer idClient);
 }

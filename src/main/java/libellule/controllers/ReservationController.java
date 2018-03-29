@@ -52,6 +52,28 @@ public class ReservationController {
         return new ResponseEntity<Reservation>(reservation.get(), HttpStatus.OK);
     }
 
+    @GetMapping("/reservations/client/{id}")
+    public ResponseEntity<?> findAllByIdClient(@RequestHeader String token, @PathVariable String id) {
+
+        if (!tokenService.tokenIsValid(token)) {
+            return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
+        }
+        System.out.println(id);
+
+        List<Reservation> allReservations = reservationService.findByIdClient(Integer.parseInt(id));
+        System.out.println(id);
+
+        /*Optional<Reservation> reservation = reservationService.findOne(Integer.parseInt(id));
+        if(!reservation.isPresent()){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }*/
+        if(allReservations.size()==0){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
+
+        return new ResponseEntity<>(allReservations, HttpStatus.OK);
+    }
+
     /***
      * Insertion d'une reservation
      * @return Reservation
@@ -105,4 +127,6 @@ public class ReservationController {
         reservationService.deleteOne(Integer.parseInt(id));
         return new ResponseEntity<>(HttpStatus.OK);
     }
+
+
 }

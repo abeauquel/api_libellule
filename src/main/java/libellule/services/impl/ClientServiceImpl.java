@@ -3,6 +3,7 @@ package libellule.services.impl;
 import libellule.dao.ClientDAO;
 import libellule.domain.Client;
 import libellule.services.ClientService;
+import libellule.services.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +14,9 @@ import java.util.Optional;
 public class ClientServiceImpl implements ClientService{
     @Autowired
     private ClientDAO clientDAO;
+
+    @Autowired
+    private ReservationService reservationService;
 
     @Override
     public List<Client> findAll() {
@@ -43,7 +47,10 @@ public class ClientServiceImpl implements ClientService{
 
     @Override
     public void deleteOne(Integer idClient) {
+        reservationService.deleteByIdClient(idClient);
         clientDAO.deleteById(idClient);
+
+        clientDAO.flush();
     }
 
     @Override
