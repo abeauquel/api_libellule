@@ -1,7 +1,7 @@
-package libellule.services.Utilisateur;
+package libellule.services.utilisateur;
 
-import libellule.domain.Utilisateur.Token;
-import libellule.domain.Utilisateur.Utilisateur;
+import libellule.domain.utilisateur.Token;
+import libellule.domain.utilisateur.Utilisateur;
 import org.springframework.stereotype.Service;
 
 @Service

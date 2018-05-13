@@ -1,4 +1,4 @@
-package libellule.Enumeration;
+package libellule.enumeration;
 
 public enum EnumUser {
     user1("loginRoot", "passwordRoot");

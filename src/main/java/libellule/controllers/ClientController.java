@@ -1,8 +1,9 @@
 package libellule.controllers;
 
 import libellule.domain.Client;
+import libellule.exception.TechnicalException;
 import libellule.services.ClientService;
-import libellule.services.Utilisateur.TokenService;
+import libellule.services.utilisateur.TokenService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -38,7 +38,13 @@ public class ClientController {
         System.out.println("chargement des clients");
 
 
-        List<Client> lesClients = clientService.findAll();
+        List<Client> lesClients = null;
+        try {
+            lesClients = clientService.findAll();
+        } catch (TechnicalException e) {
+            e.printStackTrace();
+        }
+        assert lesClients != null;
         return new ResponseEntity<List<Client>>(lesClients, HttpStatus.OK);
     }
 
@@ -98,7 +104,7 @@ public class ClientController {
     /***
      * Modification d'une client
      * @param token String
-     * @param unClient
+     * @param unClient Client
      * @return ResponseEntity<?>
      */
     @PutMapping("/client")
@@ -108,7 +114,11 @@ public class ClientController {
             return new ResponseEntity<>(HttpStatus.UNAUTHORIZED);
         }
 
-        clientService.updateOne(unClient);
+        try {
+            clientService.updateOne(unClient);
+        } catch (TechnicalException e) {
+            e.printStackTrace();
+        }
         return new ResponseEntity<Client>(unClient, HttpStatus.OK);
     }
 

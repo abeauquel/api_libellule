@@ -1,8 +1,8 @@
-package libellule.services.Utilisateur.implUtilisateur;
+package libellule.services.utilisateur.implUtilisateur;
 
 import libellule.dao.UtilisateurDAO;
-import libellule.domain.Utilisateur.Utilisateur;
-import libellule.services.Utilisateur.UtilisateurService;
+import libellule.domain.utilisateur.Utilisateur;
+import libellule.services.utilisateur.UtilisateurService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,7 +30,7 @@ public class UtilisateurServiceImpl implements UtilisateurService{
      * Renvoi l'utilisateur si login, password correct
      * @param login login de l'utilisateur
      * @param password mot de passe de l'utilisateur
-     * @return Optional<Utilisateur>
+     * @return Optional<utilisateur>
      */
     @Override
     public Optional<Utilisateur> authentification(String login, String password){

@@ -1,8 +1,8 @@
 package libellule.controllers;
 
-import libellule.domain.Utilisateur.Utilisateur;
-import libellule.services.Utilisateur.TokenService;
-import libellule.services.Utilisateur.UtilisateurService;
+import libellule.domain.utilisateur.Utilisateur;
+import libellule.services.utilisateur.TokenService;
+import libellule.services.utilisateur.UtilisateurService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -2,6 +2,7 @@ package libellule.services.impl;
 
 import libellule.dao.ClientDAO;
 import libellule.domain.Client;
+import libellule.exception.TechnicalException;
 import libellule.services.ClientService;
 import libellule.services.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,14 @@ public class ClientServiceImpl implements ClientService{
     private ReservationService reservationService;
 
     @Override
-    public List<Client> findAll() {
-        return clientDAO.findAll();
+    public List<Client> findAll() throws TechnicalException {
+        List<Client> clients = null;
+        try {
+            clients= clientDAO.findAll();
+        } catch (Exception e) {
+            throw new TechnicalException("Erreur dans le chargement de la liste des clients, "+e.getMessage());
+        }
+        return clients;
     }
 
     @Override
@@ -54,8 +61,14 @@ public class ClientServiceImpl implements ClientService{
     }
 
     @Override
-    public void updateOne(Client client) {
-        clientDAO.saveAndFlush(client);
+    public void updateOne(Client client) throws TechnicalException {
+
+        try {
+            clientDAO.saveAndFlush(client);
+        } catch (Exception e) {
+            throw new TechnicalException("Erreur dans l'update du client , "+ e.getMessage());
+
+        }
     }
 
 

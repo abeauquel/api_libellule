@@ -1,5 +1,7 @@
 package libellule.domain;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import java.util.List;
 import java.util.Date;
 import javax.persistence.*;
@@ -24,7 +26,9 @@ public class Reservation {
     @ManyToOne
     private Client monClient;
 
-    private String plateformePaiement;
+    @ManyToOne
+    private PlateformeReservation maPlateformeReservation;
+
     private Boolean annulation;
     private String remarque;
 
@@ -111,14 +115,6 @@ public class Reservation {
         this.monClient = monClient;
     }
 
-    public String getPlateformePaiement() {
-        return plateformePaiement;
-    }
-
-    public void setPlateformePaiement(String plateformePaiement) {
-        this.plateformePaiement = plateformePaiement;
-    }
-
     public Boolean getAnnulation() {
         return annulation;
     }
@@ -133,5 +129,13 @@ public class Reservation {
 
     public void setRemarque(String remarque) {
         this.remarque = remarque;
+    }
+
+    public PlateformeReservation getMaPlateformeReservation() {
+        return maPlateformeReservation;
+    }
+
+    public void setMaPlateformeReservation(PlateformeReservation maPlateformeReservation) {
+        this.maPlateformeReservation = maPlateformeReservation;
     }
 }

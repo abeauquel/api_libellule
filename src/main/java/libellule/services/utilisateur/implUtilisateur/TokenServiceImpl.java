@@ -1,9 +1,9 @@
-package libellule.services.Utilisateur.implUtilisateur;
+package libellule.services.utilisateur.implUtilisateur;
 
 import libellule.dao.TokenDAO;
-import libellule.domain.Utilisateur.Token;
-import libellule.domain.Utilisateur.Utilisateur;
-import libellule.services.Utilisateur.TokenService;
+import libellule.domain.utilisateur.Token;
+import libellule.domain.utilisateur.Utilisateur;
+import libellule.services.utilisateur.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -61,7 +61,7 @@ public class TokenServiceImpl implements TokenService {
 
     /***
      * Suppression des anciens token et creation d'un nouvelle objet token lié à un utilisateur
-     * @param unUser Utilisateur
+     * @param unUser utilisateur
      * @return Token
      */
     @Override

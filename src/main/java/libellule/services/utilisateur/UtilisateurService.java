@@ -1,7 +1,6 @@
-package libellule.services.Utilisateur;
+package libellule.services.utilisateur;
 
-import libellule.domain.Utilisateur.Token;
-import libellule.domain.Utilisateur.Utilisateur;
+import libellule.domain.utilisateur.Utilisateur;
 
 import java.util.List;
 import java.util.Optional;
